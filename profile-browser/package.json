@@ -1,0 +1,20 @@
+{
+  "name": "profile-browser",
+  "version": "1.0.0",
+  "description": "Profile Browser API",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.12.2",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
