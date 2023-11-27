@@ -73,6 +73,7 @@ app.put("/profiles/:id", (req, res) => {
       "src/models/profiles.json",
       JSON.stringify(jsonData, null, 2),
       (err) => {
+        
         if (err) {
           res.status(500).send("Error writing file");
           return;
