@@ -2,10 +2,11 @@
   "name": "static-file-server",
   "version": "1.0.0",
   "description": "A Static File Server",
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "express": "^4.18.2"
+  },
   "scripts": {
-    "start": "node src/index.js",
+    "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
