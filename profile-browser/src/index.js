@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
 });
 
 //GET /api/profiles
-app.get('/api/profiles', (_, res) => {
+app.get('/api/profiles', (req, res) => {
    // res.sendFile("./models/profiles.json", { root: __dirname });
     res.status(errorStatus).send('Not implemented');
 });
